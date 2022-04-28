@@ -109,6 +109,10 @@ app.get("/", (req, res) => {
   res.send("HI NODE!!!");
 });
 
+app.get("/antor", (req, res) => {
+  res.send("Hey! I am Antor.");
+});
+
 app.listen(port, () => {
   console.log("Listening port", port);
 });
